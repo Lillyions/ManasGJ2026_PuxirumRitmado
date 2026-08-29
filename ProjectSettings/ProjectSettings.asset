@@ -609,8 +609,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: ManasGJ2026_PuxirumRitmado
-  metroPackageVersion: 
+  metroPackageName: ManasGJ2026PuxirumRitmado
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -618,7 +618,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: ManasGJ2026_PuxirumRitmado
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: ManasGJ2026_PuxirumRitmado
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -687,11 +687,11 @@ PlayerSettings:
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
   enableDirectStorage: 0
-  cloudProjectId: 
+  cloudProjectId: b1c3b6b8-7a44-4ce0-a335-091719e2d49a
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: ManasGJ2026_PuxirumRitmado 2026-08-29_12-09-02
+  organizationId: lillyions
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

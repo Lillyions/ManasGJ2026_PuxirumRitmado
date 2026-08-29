@@ -1,0 +1,99 @@
+{
+    "version": 1,
+    "name": "PlayerInputs",
+    "maps": [
+        {
+            "name": "RhythmButtons",
+            "id": "6a5604e6-a044-47cd-b20f-23b8ce79998c",
+            "actions": [
+                {
+                    "name": "HitLeft",
+                    "type": "Button",
+                    "id": "f00e7fd5-d720-4dd8-957e-8d439f5b3d00",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "HitRight",
+                    "type": "Button",
+                    "id": "b9d27c94-65db-4993-b909-bb010b9262a7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "HitUp",
+                    "type": "Button",
+                    "id": "b6d112c8-7357-46ec-8745-ce1fdcb7405c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "HitDown",
+                    "type": "Button",
+                    "id": "1e1b80d0-9340-4ab2-8744-86e13e4a6688",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4fd8d6f7-6a6d-46d6-a77a-d89778b1d85e",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HitLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "937d0be4-de0b-4050-9b29-5eaa4231b5cf",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HitRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b7a4f091-75c7-46f4-ae2e-e65c7882f381",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HitUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7b8f8076-31c0-4e34-8a4e-6917e45cde3a",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HitDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
