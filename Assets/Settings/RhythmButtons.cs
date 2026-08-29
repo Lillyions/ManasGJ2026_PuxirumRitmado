@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class RhythmInputDebug : MonoBehaviour
+public class RhythmInput : MonoBehaviour
 {
     public void OnHitLeft(InputAction.CallbackContext context)
     {
