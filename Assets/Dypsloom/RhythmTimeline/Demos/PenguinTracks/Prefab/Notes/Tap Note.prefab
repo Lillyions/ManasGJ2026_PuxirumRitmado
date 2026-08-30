@@ -154,7 +154,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 557ea3d6b86ceca4b95597e0c8cb28f5, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -245,7 +245,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -812,7 +812,7 @@ PrefabInstance:
     - target: {fileID: 6631466877207219010, guid: f23340a29a852df4f88a496427906c96, type: 3}
       propertyPath: m_Prefab
       value: 
-      objectReference: {fileID: 8399879559807528346, guid: 178f904263d3b874bad224981a9fe5c5, type: 3}
+      objectReference: {fileID: 8399879559807528346, guid: 7dba850bde08cf347a51065ad23d716c, type: 3}
     - target: {fileID: 6631466877207219010, guid: f23340a29a852df4f88a496427906c96, type: 3}
       propertyPath: m_SpawnPosition
       value: 
@@ -843,7 +843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fe26e2ddfc50df4d88ac1de15f48b07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ColoredEffectSpawner
-  m_Prefab: {fileID: 8399879559807528346, guid: 178f904263d3b874bad224981a9fe5c5, type: 3}
+  m_Prefab: {fileID: 8399879559807528346, guid: 7dba850bde08cf347a51065ad23d716c, type: 3}
   m_ScheduledDestroy: 1
   m_Parent: {fileID: 0}
   m_SpawnPosition: {fileID: 3114862973358934937}

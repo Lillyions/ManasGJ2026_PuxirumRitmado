@@ -22,13 +22,10 @@ public class ColoredEffectSpawner : PooledObjectSpawner
             spawnedGameObject = PoolManager.Instantiate(m_Prefab, m_Parent);
         }
 
-        Debug.Log("check");
         if (_noteScript != null)
         {
-            Debug.Log("_notre script not null");
             TrackObject currentTrack = _noteScript.RhythmClipData.TrackObject;
-            Debug.Log(currentTrack.PrimaryColor.ToString());
-            if (spawnedGameObject.TryGetComponent<SetCustomGroupParticles>(out SetCustomGroupParticles particles))
+            if (spawnedGameObject.TryGetComponent<SetCustomGroupPArticles>(out SetCustomGroupPArticles particles))
             {
                 particles.SetCustomParticles(currentTrack.PrimaryColor, currentTrack.SecondaryColor);
             }

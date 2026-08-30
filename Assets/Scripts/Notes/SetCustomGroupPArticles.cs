@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SetCustomGroupParticles : MonoBehaviour
+public class SetCustomGroupPArticles : MonoBehaviour
 {
     [SerializeField] private ParticleSystem _mainParticleSystem;
     [SerializeField] private ParticleSystem _secondPartiucleSystem;
