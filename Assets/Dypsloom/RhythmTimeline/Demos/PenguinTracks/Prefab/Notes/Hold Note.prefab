@@ -538,7 +538,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1587133033856674524}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab07556393680e946a9a4cbca980ae17, type: 3}
+  m_Script: {fileID: 11500000, guid: af2e4c1c6e780c741958edb919319572, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SetNoteColor
   _shinyCircle: {fileID: 7795617987761009651}
@@ -558,7 +558,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1587133033856674524}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfc04e71f3490db419c1e1de611b8a69, type: 3}
+  m_Script: {fileID: 11500000, guid: fc7c84b8ec1ffe349a3bcabd8bf381d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NoteFading
   _sprites:
@@ -6349,7 +6349,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 394152938561765664}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4977f3be9cb50a94695791f524f61ba9, type: 3}
+  m_Script: {fileID: 11500000, guid: 5fe26e2ddfc50df4d88ac1de15f48b07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ColoredEffectSpawner
   m_Prefab: {fileID: 8399879559807528346, guid: 178f904263d3b874bad224981a9fe5c5, type: 3}
