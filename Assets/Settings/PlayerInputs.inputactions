@@ -45,6 +45,26 @@
                     "interactions": "Press",
                     "initialStateCheck": false,
                     "priority": 0
+                },
+                {
+                    "name": "CloseButton",
+                    "type": "Button",
+                    "id": "f417bb35-a389-421c-9d49-efdc10f826b5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "SelectButton",
+                    "type": "Button",
+                    "id": "0ddff915-5e68-4852-bd93-931da2bb9e21",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false,
+                    "priority": 0
                 }
             ],
             "bindings": [
@@ -89,6 +109,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "HitDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8b856b10-50b5-4a15-a8b9-e85d13ee3dda",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CloseButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fd9dccdc-8749-491d-b6b7-150197a56655",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectButton",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
