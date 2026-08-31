@@ -1,0 +1,17 @@
+{
+    "name": "Puxirum.AnimationProgression",
+    "rootNamespace": "PuxirumRitmado.AnimationProgression",
+    "references": [
+        "Dypsloom.RhythmTimeline",
+        "Unity.Timeline"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

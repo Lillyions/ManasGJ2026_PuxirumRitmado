@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37a1815e4bc56b14e8d5dd95acb2744b, type: 3}
+  m_Name: SomDaAmazonia_AnimationSequence
+  m_EditorClassIdentifier: Puxirum.AnimationProgression::PuxirumRitmado.AnimationProgression.AnimationSequenceSO
+  beatsPerBar: 4
+  cues:
+  - stageId: ribeirinho_sobe
+    bar: 2
+    beat: 1
+  - stageId: ribeirinha_retira
+    bar: 8
+    beat: 1
+  - stageId: agua_quente
+    bar: 14
+    beat: 1
+  - stageId: agua_fria
+    bar: 20
+    beat: 1
+  - stageId: prepara_polpa
+    bar: 26
+    beat: 1
