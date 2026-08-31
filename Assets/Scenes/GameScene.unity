@@ -266,27 +266,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_PrimaryColor.b
-      value: 0.40635884
-      objectReference: {fileID: 0}
-    - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
-      propertyPath: m_PrimaryColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
-      propertyPath: m_PrimaryColor.r
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
+      propertyPath: m_PrimaryColor.g
+      value: 0.72156864
+      objectReference: {fileID: 0}
+    - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
+      propertyPath: m_PrimaryColor.r
+      value: 0.85098046
+      objectReference: {fileID: 0}
+    - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_SecondaryColor.b
-      value: 0.72906035
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_SecondaryColor.g
-      value: 1
+      value: 0.83011985
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_SecondaryColor.r
-      value: 0.5424528
+      value: 0.97900003
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_OnNoteActivate.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -421,27 +421,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_PrimaryColor.b
-      value: 0.6236161
+      value: 0.6784314
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_PrimaryColor.g
-      value: 0
+      value: 0.5058824
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_PrimaryColor.r
-      value: 1
+      value: 0.15686275
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_SecondaryColor.b
-      value: 0.7709213
+      value: 0.95699996
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_SecondaryColor.g
-      value: 0.3915094
+      value: 0.7136013
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_SecondaryColor.r
-      value: 1
+      value: 0.22127166
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_OnNoteActivate.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1925,27 +1925,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_PrimaryColor.b
-      value: 1
+      value: 0.20392159
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_PrimaryColor.g
-      value: 0.64783025
+      value: 0.15686275
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_PrimaryColor.r
-      value: 0
+      value: 0.6784314
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_SecondaryColor.b
-      value: 1
+      value: 0.26210403
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_SecondaryColor.g
-      value: 0.74861264
+      value: 0.2016185
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_SecondaryColor.r
-      value: 0.28773582
+      value: 0.872
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_OnNoteActivate.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -3170,23 +3170,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_PrimaryColor.g
-      value: 0.36958295
+      value: 0.5058824
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_PrimaryColor.r
-      value: 1
+      value: 0.15686275
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_SecondaryColor.b
-      value: 0.28773582
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_SecondaryColor.g
-      value: 0.55029595
+      value: 0.754
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_SecondaryColor.r
-      value: 1
+      value: 0.23379852
       objectReference: {fileID: 0}
     - target: {fileID: 1444062592584351850, guid: d6dd855e46393c4489533834806200bb, type: 3}
       propertyPath: m_OnNoteActivate.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -3379,7 +3379,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 9d89107976062f14cabf460ce94d1f68, type: 3}
+  m_Resource: {fileID: 8300000, guid: 8731b8a09f13d514890632c8274dd57d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1

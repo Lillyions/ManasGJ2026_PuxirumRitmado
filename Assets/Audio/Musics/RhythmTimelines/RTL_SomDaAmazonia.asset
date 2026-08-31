@@ -6598,7 +6598,7 @@ MonoBehaviour:
   m_Authour: Mestre Solano
   m_Description: 
   m_Dificulty: 0
-  m_AudioClip: {fileID: 8300000, guid: 9d89107976062f14cabf460ce94d1f68, type: 3}
+  m_AudioClip: {fileID: 8300000, guid: 8731b8a09f13d514890632c8274dd57d, type: 3}
   m_StartScore: 0
   m_MaxScore: -1
   m_MinScore: 0
@@ -10088,7 +10088,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b22792c3b570444eb18cb78c2af3a74, type: 3}
-  m_Name: Audio Track (1)
+  m_Name: Audio Track
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.AudioTrack
   m_Version: 3
   m_AnimClip: {fileID: 0}
