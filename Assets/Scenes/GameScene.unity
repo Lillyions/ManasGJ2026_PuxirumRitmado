@@ -389,7 +389,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &182224196
 RectTransform:
   m_ObjectHideFlags: 0
@@ -875,6 +875,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &553110561 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3231288299499856067, guid: 1251b4d12d8a14de9ac3db6ad9cf610b, type: 3}
+  m_PrefabInstance: {fileID: 1031205118}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &609409657
 GameObject:
   m_ObjectHideFlags: 0
@@ -1073,7 +1084,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &689444371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1184,8 +1195,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 700801115}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.56065, y: 11.992, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.89383, y: 12.098789, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1193,7 +1204,7 @@ Transform:
   - {fileID: 1146679113}
   - {fileID: 89723866}
   - {fileID: 233983467}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1648252224}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &905722505
 GameObject:
@@ -1885,6 +1896,14 @@ PrefabInstance:
     - target: {fileID: 274264550655057221, guid: 1251b4d12d8a14de9ac3db6ad9cf610b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 4.8547363
+      objectReference: {fileID: 0}
+    - target: {fileID: 910982569361992063, guid: 1251b4d12d8a14de9ac3db6ad9cf610b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.400024
+      objectReference: {fileID: 0}
+    - target: {fileID: 910982569361992063, guid: 1251b4d12d8a14de9ac3db6ad9cf610b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -17.797607
       objectReference: {fileID: 0}
     - target: {fileID: 2339633208800671508, guid: 1251b4d12d8a14de9ac3db6ad9cf610b, type: 3}
       propertyPath: m_Camera
@@ -2611,7 +2630,8 @@ Transform:
   m_LocalPosition: {x: 0.33318, y: -0.10679, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 700801116}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1648252225
@@ -2736,7 +2756,7 @@ MonoBehaviour:
   m_RhythmDirector: {fileID: 1682923730}
   m_ScoreSettings: {fileID: 11400000, guid: 3c74c4591686be34888bbd3a8f4ec3e8, type: 2}
   m_AddNoteScoreOnTrigger: 1
-  m_ScoreTmp: {fileID: 984515077}
+  m_ScoreTmp: {fileID: 553110561}
   m_ScoreMultiplierTmp: {fileID: 0}
   m_ChainTmp: {fileID: 0}
   m_RankSlider: {fileID: 0}
@@ -3502,11 +3522,10 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 689444374}
-  - {fileID: 1031205118}
-  - {fileID: 1467229904}
-  - {fileID: 1648252224}
   - {fileID: 2117907186}
-  - {fileID: 1682923728}
-  - {fileID: 700801116}
+  - {fileID: 689444374}
+  - {fileID: 1467229904}
+  - {fileID: 1031205118}
   - {fileID: 395707527}
+  - {fileID: 1648252224}
+  - {fileID: 1682923728}
