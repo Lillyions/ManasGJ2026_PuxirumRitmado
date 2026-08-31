@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1604570903184279281}
   - component: {fileID: 1604570903184279291}
   - component: {fileID: 1604570903184279290}
+  - component: {fileID: 4109938569417918283}
   m_Layer: 0
   m_Name: Rhythm Director
   m_TagString: Untagged
@@ -368,8 +369,7 @@ MonoBehaviour:
         m_Action: Input
         m_Flags: 0
       m_Flags: 0
-    m_Key: 100
-    m_Button: 
+      m_Priority: 0
   - m_NewKey: 20
     m_InputAction:
       m_Name: Input
@@ -388,8 +388,7 @@ MonoBehaviour:
         m_Action: Input
         m_Flags: 0
       m_Flags: 0
-    m_Key: 102
-    m_Button: 
+      m_Priority: 0
   - m_NewKey: 24
     m_InputAction:
       m_Name: Input
@@ -408,8 +407,7 @@ MonoBehaviour:
         m_Action: Input
         m_Flags: 0
       m_Flags: 0
-    m_Key: 106
-    m_Button: 
+      m_Priority: 0
   - m_NewKey: 25
     m_InputAction:
       m_Name: Input
@@ -428,8 +426,7 @@ MonoBehaviour:
         m_Action: Input
         m_Flags: 0
       m_Flags: 0
-    m_Key: 107
-    m_Button: 
+      m_Priority: 0
   m_SwipeLeft:
     m_NewKey: 1
     m_InputAction:
@@ -441,8 +438,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Key: 32
-    m_Button: 
+      m_Priority: 0
   m_SwipeRight:
     m_NewKey: 1
     m_InputAction:
@@ -454,8 +450,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Key: 32
-    m_Button: 
+      m_Priority: 0
   m_SwipeUp:
     m_NewKey: 1
     m_InputAction:
@@ -467,8 +462,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Key: 32
-    m_Button: 
+      m_Priority: 0
   m_SwipeDown:
     m_NewKey: 1
     m_InputAction:
@@ -480,8 +474,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Key: 32
-    m_Button: 
+      m_Priority: 0
   m_2DTouchCollider: 0
   m_TouchInputMask:
     serializedVersion: 2
@@ -495,3 +488,15 @@ MonoBehaviour:
   m_DisableTouchInputInBuild: 0
   m_DisableMouseInputInBuild: 0
   m_Camera: {fileID: 0}
+--- !u!114 &4109938569417918283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604570903184279280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82a5f0228712d65468db715238699b1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Dypsloom.RhythmTimeline::Dypsloom.RhythmTimeline.Core.DspTime
