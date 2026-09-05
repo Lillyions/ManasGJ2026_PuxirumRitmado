@@ -729,6 +729,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5721639438605398833, guid: d826ac56acfa946b6ba7a04c84ddd19a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6328479114090561599, guid: d826ac56acfa946b6ba7a04c84ddd19a, type: 3}
       propertyPath: m_Name
       value: agua_quente
@@ -1579,7 +1583,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 910982569361992063, guid: 1251b4d12d8a14de9ac3db6ad9cf610b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -5.652603
+      value: -5.652588
       objectReference: {fileID: 0}
     - target: {fileID: 1018680986829274021, guid: 1251b4d12d8a14de9ac3db6ad9cf610b, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2872,7 +2876,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 22f98334fa2c45959bfa46b18385d1c1, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeferredRhythmStarter
   rhythmDirector: {fileID: 1682923730}
   stabilizationFrames: 3
