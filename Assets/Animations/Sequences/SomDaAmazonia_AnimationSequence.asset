@@ -15,17 +15,22 @@ MonoBehaviour:
   beatsPerBar: 4
   cues:
   - stageId: ribeirinho_sobe
-    bar: 2
+    bar: 3
     beat: 1
+    durationBeats: 8
   - stageId: ribeirinha_retira
-    bar: 8
+    bar: 9
     beat: 1
-  - stageId: agua_quente
-    bar: 14
-    beat: 1
+    durationBeats: 8
   - stageId: agua_fria
-    bar: 20
+    bar: 15
     beat: 1
+    durationBeats: 8
+  - stageId: agua_quente
+    bar: 21
+    beat: 1
+    durationBeats: 8
   - stageId: prepara_polpa
-    bar: 26
+    bar: 27
     beat: 1
+    durationBeats: 8
