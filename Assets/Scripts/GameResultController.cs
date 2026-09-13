@@ -1,4 +1,5 @@
 using Dypsloom.RhythmTimeline.Core.Managers;
+using TMPro;
 using UnityEngine;
 
 [DisallowMultipleComponent]
@@ -6,6 +7,8 @@ public sealed class GameResultController : MonoBehaviour
 {
     [SerializeField] private RhythmDirector rhythmDirector;
     [SerializeField] private GameObject victoryScreen;
+    [SerializeField] private TextMeshProUGUI hudScoreText;
+    [SerializeField] private TextMeshProUGUI finalScoreText;
 
     private bool resultShown;
 
@@ -55,7 +58,19 @@ public sealed class GameResultController : MonoBehaviour
         }
 
         resultShown = true;
+        UpdateFinalScore();
         SetVictoryVisibility(true);
+    }
+
+    private void UpdateFinalScore()
+    {
+        if (hudScoreText == null || finalScoreText == null)
+        {
+            Debug.LogError("Os textos de pontuacao da HUD e da tela final precisam ser atribuidos no Inspector.", this);
+            return;
+        }
+
+        finalScoreText.text = hudScoreText.text;
     }
 
     private void SetVictoryVisibility(bool isVisible)
